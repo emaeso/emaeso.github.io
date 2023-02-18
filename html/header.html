@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link href="../src/library/bootstrap-4.6.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body>
+    <div id="cookiesModal" class="alert alert-info alert-dismissible alert-cookies" style="display: none">
+        <button type="button" class="close" data-dismiss="alert" onclick="closeCookies()">&times;</button>
+        Este sitio web utiliza cookies técnicas para un funcionamiento correcto. Si continúa navegando
+        acepta el uso de estas cookies.
+    </div>
+</body>
+
+<script>
+    function closeCookies() {
+        localStorage.setItem("cookieSeen", true);
+        document.getElementById("cookiesModal").style.display = "none";
+    }
+
+    if (!localStorage.getItem("cookieSeen")) {
+        document.getElementById("cookiesModal").style.display = "block";
+    }
+</script>
+
+</html>

@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- head definitions go here -->
-    </head>
-    <body>
-        WORKS!
-    </body>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Eduardo Maeso Roncero">
+    <title>CV Eduardo Maeso</title>
+
+    <script src="src/library/jquery-1.12.4/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#headerContent").load("html/header.html");
+        });
+    </script>
+
+    <link href="src/library/bootstrap-4.6.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <div id="headerContent"></div>
+
+    <div class="jumbotron jumbotron-home text-center">
+        <h1>Eduardo Maeso Roncero</h1>
+        <h5>Ingeniero en informática</h5>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mb-3">
+                <a href="www.google.es" class="text-decoration-none">
+                    <div class="image-button h-100 text-center p-3 BG-education">
+                        <h3>Formación</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 mb-3">
+                <a href="www.google.es" class="text-decoration-none">
+                    <div class="image-button h-100 text-center p-3 BG-business">
+                        <h3>Trayectoria</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <p class="text-justify">Te doy la bienvenida a mi web personal. Se trata de una versión más detallada de mi
+            <b>currículum</b> donde podrás encontrar qué tecnologías y conocimientos adquirí, las empresas en las que
+            trabajé y proyectos que realicé durante todos estos años que llevo en el apasionante mundo de las
+            tecnologías de la información.
+        </p>
+        <p class="text-justify">Algo sobre mí.</p>
+        <p class="text-justify">Algo sobre mí.</p>
+    </div>
+
+    <object class="footer-place" data="html/footer.html"></object>
+</body>
+
 </html>
