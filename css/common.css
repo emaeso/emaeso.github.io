@@ -1,11 +1,23 @@
 
+body{
+    background-color: #eee;
+}
+
+h3{
+    margin-bottom: 0px !important;
+}
+
 .jumbotron-home {
     background-image: url(../img/background/IMG-MC-blockchain-1920x1261.jpg);
     background-size: cover;
-    text-shadow: 0 0 10px #000;
     color: white;
     margin-bottom: 16px !important;
     border-radius: 0px !important;
+}
+
+.m-bold{
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .BG-business{
@@ -18,7 +30,7 @@
 
 .image-button{
     background-size: cover;
-    text-shadow: 0 0 10px #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     border-radius: 7px;
     color: #fff;
 }
