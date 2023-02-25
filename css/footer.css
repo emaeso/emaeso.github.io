@@ -28,6 +28,15 @@ body {
     flex-direction: column;
 }
 
+.linkedin {
+    color: #cfcfcf;
+    transition: 0.5s;
+}
+
+.linkedin:hover {
+    color: #000;
+}
+
 .menu__link {
     font-size: 1.2rem;
     color: #fff;
@@ -35,12 +44,11 @@ body {
     display: inline-block;
     transition: 0.5s;
     text-decoration: none;
-    opacity: 0.75;
     font-weight: 300;
 }
 
 .menu__link:hover {
-    opacity: 1;
+    color: #000;
 }
 
 .footer p {
@@ -56,7 +64,7 @@ body {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url("../img/background/wave-slim.png");
+    background: url("/img/background/wave-slim.png");
     background-size: 1000px 100px;
 }
 
