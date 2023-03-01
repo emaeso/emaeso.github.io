@@ -1,13 +1,12 @@
-
-body{
+body {
     background-color: #eee !important;
 }
 
-h3{
+h3 {
     margin-bottom: 0px !important;
 }
 
-.container{
+.container {
     max-width: 900px !important;
 }
 
@@ -19,42 +18,61 @@ h3{
     border-radius: 0px !important;
 }
 
-.home-button{
-    float:left;
+.home-button {
+    float: left;
 }
 
-.m-bold{
+.m-bold {
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.BG-business{
+.BG-business {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/business.jpg);
 }
 
-.BG-education{
+.BG-education {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/education.jpg);
 }
 
-.image-button{
+.image-button {
     background-size: cover;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     border-radius: 7px;
     color: #fff;
 }
 
-.image-button:hover{
+.image-button:hover {
     transform: scale(1.03);
     transition: all 0.3s ease-in-out 0.1s;
 }
 
-.header-place{
+.header-place {
     width: 100%;
     margin-bottom: -5px;
 }
 
-.footer-place{
+.footer-place {
     width: 100%;
     height: 285px;
     margin-bottom: -5px;
+}
+
+.basic-card {
+    border: 1px solid #444 !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+
+.secondary-text {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 0px !important;
+    float: right;
+}
+
+.contain {
+    object-fit: contain;
 }
