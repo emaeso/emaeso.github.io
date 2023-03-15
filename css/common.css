@@ -11,7 +11,6 @@ h3 {
 }
 
 .jumbotron-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/IMG-MC-blockchain-1920x1261.jpg);
     background-size: cover;
     color: white;
     margin-bottom: 16px !important;
@@ -25,6 +24,10 @@ h3 {
 .m-bold {
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.BG-network{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/IMG-MC-blockchain-1920x1261.jpg);
 }
 
 .BG-business {
