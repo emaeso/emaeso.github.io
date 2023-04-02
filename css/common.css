@@ -27,7 +27,7 @@ h3 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.BG-network{
+.BG-network {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/IMG-MC-blockchain-1920x1261.jpg);
 }
 
@@ -79,4 +79,8 @@ h3 {
 
 .contain {
     object-fit: contain;
+}
+
+.progress-icon {
+    height: 80px;
 }
