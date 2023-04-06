@@ -81,6 +81,32 @@ h3 {
     object-fit: contain;
 }
 
-.progress-icon {
-    height: 80px;
+.progress-80{
+    width:80%;
+    background-color: #62ff62 !important;
+}
+
+.progress-70{
+    width:70%;
+    background-color: #62ff62 !important;
+}
+
+.progress-60{
+    width:60%;
+    background-color: #ffe762 !important;
+}
+
+.progress-50{
+    width:50%;
+    background-color: #ffe762 !important;
+}
+
+.progress-40{
+    width:40%;
+    background-color: #f65959 !important;
+}
+
+.progress-30{
+    width:30%;
+    background-color: #f65959 !important;
 }
