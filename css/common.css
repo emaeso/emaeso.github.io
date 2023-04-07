@@ -27,7 +27,7 @@ h3 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.BG-network{
+.BG-network {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/img/background/IMG-MC-blockchain-1920x1261.jpg);
 }
 
@@ -79,4 +79,64 @@ h3 {
 
 .contain {
     object-fit: contain;
+}
+
+.progress-80 {
+    width: 80%;
+    background-color: #62ff62 !important;
+    color: #000 !important;
+}
+
+.progress-70 {
+    width: 70%;
+    background-color: #62ff62 !important;
+    color: #000 !important;
+}
+
+.progress-60 {
+    width: 60%;
+    background-color: #ffe762 !important;
+    color: #000 !important;
+}
+
+.progress-50 {
+    width: 50%;
+    background-color: #ffe762 !important;
+    color: #000 !important;
+}
+
+.progress-40 {
+    width: 40%;
+    background-color: #f65959 !important;
+    color: #000 !important;
+}
+
+.progress-30 {
+    width: 30%;
+    background-color: #f65959 !important;
+    color: #000 !important;
+}
+
+.progress-80:before {
+    content: "8";
+}
+
+.progress-70:before {
+    content: "7";
+}
+
+.progress-60:before {
+    content: "6";
+}
+
+.progress-50:before {
+    content: "5";
+}
+
+.progress-40:before {
+    content: "4";
+}
+
+.progress-30:before {
+    content: "3";
 }
